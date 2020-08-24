@@ -40,13 +40,6 @@ class ChangeContactReasonFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_change_contact_reason, container, false)
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        arrow_forward_image_view.setOnClickListener {
-            findNavController().navigate(R.id.action_changeContactReasonFragment_to_transactionConfirmMultipleFragment)
-        }
-    }
-
     companion object {
         /**
          * Use this factory method to create a new instance of

@@ -31,9 +31,6 @@ class MainFragment : Fragment() {
         viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         // TODO: Use the ViewModel
 
-        ic_edit_image_view.setOnClickListener {
-            findNavController().navigate(R.id.action_mainFragment_to_settingEditFragment)
-        }
         imageView7.setOnClickListener {
             findNavController().navigate(R.id.mainFragment)
         }
