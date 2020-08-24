@@ -1,0 +1,311 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<color name="color_primary">#46A89B</color>
+	<color name="color_primary_dark">#46A89B</color>
+	<color name="color_accent">#46A89B</color>
+	<color name="click_overlay">#555555</color>
+	<color name="default_hint">#C6C6CB</color>
+	<color name="material_bottom_sheet_title">#8a000000</color>
+	<color name="material_bottom_sheet_item">#de000000</color>
+	
+	<!-- HistoryDetailsActivity -->
+	<color name="history_details_activity_history_details_constraint_layout_background_color">#ECEEF1</color>
+	<color name="history_details_activity_rectangle290_constraint_layout_background_color">#FAFAFA</color>
+	<color name="history_details_activity_you_text_view_text_color">#545555</color>
+	<color name="history_details_activity_amar_sagoo_text_view_text_color">#545555</color>
+	<color name="history_details_activity_sent_text_view_text_color">#545555</color>
+	<color name="history_details_activity_card_copy_constraint_layout_background_color">#FAFAFA</color>
+	<color name="history_details_activity_row_constraint_layout_background_color">#FAFAFA</color>
+	<color name="history_details_activity_date_text_view_text_color">#545555</color>
+	<color name="history_details_activity_jan222015_text_view_text_color">#545555</color>
+	<color name="history_details_activity_row_copy_constraint_layout_background_color">#FAFAFA</color>
+	<color name="history_details_activity_status_text_view_text_color">#545555</color>
+	<color name="history_details_activity_pending_text_view_text_color">#545555</color>
+	<color name="history_details_activity_row_copy2_constraint_layout_background_color">#FAFAFA</color>
+	<color name="history_details_activity_amount_text_view_text_color">#545555</color>
+	<color name="history_details_activity_text_view_text_view_text_color">#545555</color>
+	<color name="history_details_activity_row_copy3_constraint_layout_background_color">#FAFAFA</color>
+	<color name="history_details_activity_reason_text_view_text_color">#545555</color>
+	<color name="history_details_activity_dinner_text_view_text_color">#545555</color>
+	<color name="history_details_activity_details_text_view_text_color">#545555</color>
+	<color name="history_details_activity_app_bar_constraint_layout_background_color">#46A89B</color>
+	<color name="history_details_activity_amar_sagoo_two_text_view_text_color">#FFFFFF</color>
+	
+	<!-- HistoryTabActivity -->
+	<color name="history_tab_activity_history_tab_constraint_layout_background_color">#FFFFFF</color>
+	<color name="history_tab_activity_row_copy3_constraint_layout_background_color">#FFFFFF</color>
+	<color name="history_tab_activity_sent_copy_constraint_layout_background_color">#54C7FC</color>
+	<color name="history_tab_activity_sent_text_view_text_color">#FFFFFF</color>
+	<color name="history_tab_activity_helen_kelley_text_view_text_color">#545555</color>
+	<color name="history_tab_activity_jan2220_text_view_text_color">#9B9B9B</color>
+	<color name="history_tab_activity_row_copy8_constraint_layout_background_color">#FFFFFF</color>
+	<color name="history_tab_activity_sent_copy_two_constraint_layout_background_color">#54C7FC</color>
+	<color name="history_tab_activity_sent_two_text_view_text_color">#FFFFFF</color>
+	<color name="history_tab_activity_edward_ortiz_text_view_text_color">#545555</color>
+	<color name="history_tab_activity_jan2220_two_text_view_text_color">#9B9B9B</color>
+	<color name="history_tab_activity_row_copy4_constraint_layout_background_color">#FFFFFF</color>
+	<color name="history_tab_activity_pending_copy_constraint_layout_background_color">#F5A623</color>
+	<color name="history_tab_activity_pending_text_view_text_color">#FFFFFF</color>
+	<color name="history_tab_activity_amar_sagoo_text_view_text_color">#545555</color>
+	<color name="history_tab_activity_jan2220_three_text_view_text_color">#9B9B9B</color>
+	<color name="history_tab_activity_row_copy7_constraint_layout_background_color">#FFFFFF</color>
+	<color name="history_tab_activity_pending_copy_two_constraint_layout_background_color">#F5A623</color>
+	<color name="history_tab_activity_pending_two_text_view_text_color">#FFFFFF</color>
+	<color name="history_tab_activity_virginia_hayes_text_view_text_color">#545555</color>
+	<color name="history_tab_activity_jan2220_four_text_view_text_color">#9B9B9B</color>
+	<color name="history_tab_activity_row_copy5_constraint_layout_background_color">#FFFFFF</color>
+	<color name="history_tab_activity_received_copy2_constraint_layout_background_color">#46A89B</color>
+	<color name="history_tab_activity_received_text_view_text_color">#FFFFFF</color>
+	<color name="history_tab_activity_mark_murray_text_view_text_color">#545555</color>
+	<color name="history_tab_activity_jan2220_five_text_view_text_color">#9B9B9B</color>
+	<color name="history_tab_activity_row_copy6_constraint_layout_background_color">#FFFFFF</color>
+	<color name="history_tab_activity_received_copy2_two_constraint_layout_background_color">#46A89B</color>
+	<color name="history_tab_activity_received_two_text_view_text_color">#FFFFFF</color>
+	<color name="history_tab_activity_tammy_schmidt_text_view_text_color">#545555</color>
+	<color name="history_tab_activity_jan2220_six_text_view_text_color">#9B9B9B</color>
+	<color name="history_tab_activity_row_copy9_constraint_layout_background_color">#FFFFFF</color>
+	<color name="history_tab_activity_received_copy2_three_constraint_layout_background_color">#46A89B</color>
+	<color name="history_tab_activity_received_three_text_view_text_color">#FFFFFF</color>
+	<color name="history_tab_activity_ann_guzman_lauren_text_view_text_color">#545555</color>
+	<color name="history_tab_activity_jan2220_seven_text_view_text_color">#9B9B9B</color>
+	<color name="history_tab_activity_mask_constraint_layout_background_color">#EAEAEA</color>
+	<color name="history_tab_activity_tabs_constraint_layout_background_color">#46A89B</color>
+	<color name="history_tab_activity_app_bar_constraint_layout_background_color">#46A89B</color>
+	<color name="history_tab_activity_history_text_view_text_color">#FFFFFF</color>
+	
+	<!-- TransactionConfirmMultipleActivity -->
+	<color name="transaction_confirm_multiple_activity_transaction_confirm_multiple_constraint_layout_background_color">#ECEEF1</color>
+	<color name="transaction_confirm_multiple_activity_confirm_text_view_text_color">#FFFFFF</color>
+	<color name="transaction_confirm_multiple_activity_app_bar_constraint_layout_background_color">#46A89B</color>
+	<color name="transaction_confirm_multiple_activity_request_text_view_text_color">#FFFFFF</color>
+	<color name="transaction_confirm_multiple_activity_rectangle290_constraint_layout_background_color">#FAFAFA</color>
+	<color name="transaction_confirm_multiple_activity_ann_guzman_text_view_text_color">#545555</color>
+	<color name="transaction_confirm_multiple_activity_lauren_hen_text_view_text_color">#545555</color>
+	<color name="transaction_confirm_multiple_activity_angela_castillo_text_view_text_color">#545555</color>
+	<color name="transaction_confirm_multiple_activity_you_copy_text_view_text_color">#545555</color>
+	<color name="transaction_confirm_multiple_activity_request_two_text_view_text_color">#545555</color>
+	<color name="transaction_confirm_multiple_activity_rectangle290_two_constraint_layout_background_color">#FAFAFA</color>
+	<color name="transaction_confirm_multiple_activity_text_view_text_view_text_color">#46A89B</color>
+	<color name="transaction_confirm_multiple_activity_text_view_two_text_view_text_color">#46A89B</color>
+	<color name="transaction_confirm_multiple_activity_text_view_three_text_view_text_color">#46A89B</color>
+	<color name="transaction_confirm_multiple_activity_type_something_text_view_text_color">#545555</color>
+	<color name="transaction_confirm_multiple_activity_amount_text_view_text_color">#545555</color>
+	
+	<!-- TransactionConfirmSingleActivity -->
+	<color name="transaction_confirm_single_activity_transaction_confirm_single_constraint_layout_background_color">#ECEEF1</color>
+	<color name="transaction_confirm_single_activity_confirm_text_view_text_color">#FFFFFF</color>
+	<color name="transaction_confirm_single_activity_app_bar_constraint_layout_background_color">#46A89B</color>
+	<color name="transaction_confirm_single_activity_send_text_view_text_color">#FFFFFF</color>
+	<color name="transaction_confirm_single_activity_rectangle290_constraint_layout_background_color">#FAFAFA</color>
+	<color name="transaction_confirm_single_activity_amar_sagoo_text_view_text_color">#545555</color>
+	<color name="transaction_confirm_single_activity_you_copy_text_view_text_color">#545555</color>
+	<color name="transaction_confirm_single_activity_send_two_text_view_text_color">#545555</color>
+	<color name="transaction_confirm_single_activity_rectangle290_two_constraint_layout_background_color">#FAFAFA</color>
+	<color name="transaction_confirm_single_activity_text_view_text_view_text_color">#46A89B</color>
+	<color name="transaction_confirm_single_activity_text_view_two_text_view_text_color">#46A89B</color>
+	<color name="transaction_confirm_single_activity_text_view_three_text_view_text_color">#46A89B</color>
+	<color name="transaction_confirm_single_activity_reason_dinner_text_view_text_color">#8B000000</color>
+	<color name="transaction_confirm_single_activity_amount_text_view_text_color">#545555</color>
+	
+	<!-- ChooseContactReasonActivity -->
+	<color name="choose_contact_reason_activity_choose_contact_reason_constraint_layout_background_color">#FAFAFA</color>
+	<color name="choose_contact_reason_activity_janet_perkins_text_view_text_color">#545555</color>
+	<color name="choose_contact_reason_activity_mary_johnson_text_view_text_color">#545555</color>
+	<color name="choose_contact_reason_activity_tina_santiago_text_view_text_color">#545555</color>
+	<color name="choose_contact_reason_activity_trevor_hansen_text_view_text_color">#545555</color>
+	<color name="choose_contact_reason_activity_amar_sagoo_text_view_text_color">#545555</color>
+	<color name="choose_contact_reason_activity_abbey_christensen_text_view_text_color">#545555</color>
+	<color name="choose_contact_reason_activity_ali_connors_text_view_text_color">#545555</color>
+	<color name="choose_contact_reason_activity_alex_nelson_text_view_text_color">#545555</color>
+	<color name="choose_contact_reason_activity_anthony_stevens_text_view_text_color">#545555</color>
+	<color name="choose_contact_reason_activity_a_text_view_text_color">#000000</color>
+	<color name="choose_contact_reason_activity_to_reason_constraint_layout_background_color">#46A89B</color>
+	<color name="choose_contact_reason_activity_reason_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_reason_activity_refund_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_reason_activity_insertion_mark_copy_constraint_layout_background_color">#FFFFFF</color>
+	<color name="choose_contact_reason_activity_amar_sagoo_two_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_reason_activity_to_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_reason_activity_app_bar_constraint_layout_background_color">#46A89B</color>
+	<color name="choose_contact_reason_activity_text_view_text_view_text_color">#FFFFFF</color>
+	
+	<!-- ChooseContactSelectActivity -->
+	<color name="choose_contact_select_activity_choose_contact_select_constraint_layout_background_color">#FAFAFA</color>
+	<color name="choose_contact_select_activity_janet_perkins_text_view_text_color">#4D4D4D</color>
+	<color name="choose_contact_select_activity_mary_johnson_text_view_text_color">#4D4D4D</color>
+	<color name="choose_contact_select_activity_tina_santiago_text_view_text_color">#4D4D4D</color>
+	<color name="choose_contact_select_activity_trevor_hansen_text_view_text_color">#4D4D4D</color>
+	<color name="choose_contact_select_activity_amar_sagoo_text_view_text_color">#4D4D4D</color>
+	<color name="choose_contact_select_activity_abbey_christensen_text_view_text_color">#4D4D4D</color>
+	<color name="choose_contact_select_activity_ali_connors_text_view_text_color">#4D4D4D</color>
+	<color name="choose_contact_select_activity_alex_nelson_text_view_text_color">#4D4D4D</color>
+	<color name="choose_contact_select_activity_anthony_stevens_text_view_text_color">#4D4D4D</color>
+	<color name="choose_contact_select_activity_a_text_view_text_color">#000000</color>
+	<color name="choose_contact_select_activity_to_reason_constraint_layout_background_color">#46A89B</color>
+	<color name="choose_contact_select_activity_reason_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_select_activity_add_reason_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_select_activity_amar_sagoo_two_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_select_activity_to_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_select_activity_app_bar_constraint_layout_background_color">#46A89B</color>
+	<color name="choose_contact_select_activity_text_view_text_view_text_color">#FFFFFF</color>
+	
+	<!-- ChooseContactActiveActivity -->
+	<color name="choose_contact_active_activity_choose_contact_active_constraint_layout_background_color">#FAFAFA</color>
+	<color name="choose_contact_active_activity_amar_sagoo_text_view_text_color">#545555</color>
+	<color name="choose_contact_active_activity_abbey_christensen_text_view_text_color">#545555</color>
+	<color name="choose_contact_active_activity_ali_connors_text_view_text_color">#545555</color>
+	<color name="choose_contact_active_activity_alex_nelson_text_view_text_color">#545555</color>
+	<color name="choose_contact_active_activity_anthony_stevens_text_view_text_color">#545555</color>
+	<color name="choose_contact_active_activity_a_two_text_view_text_color">#000000</color>
+	<color name="choose_contact_active_activity_to_reason_constraint_layout_background_color">#46A89B</color>
+	<color name="choose_contact_active_activity_reason_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_active_activity_add_reason_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_active_activity_to_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_active_activity_a_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_active_activity_insertion_mark_constraint_layout_background_color">#FFFFFF</color>
+	<color name="choose_contact_active_activity_app_bar_constraint_layout_background_color">#46A89B</color>
+	<color name="choose_contact_active_activity_text_view_text_view_text_color">#FFFFFF</color>
+	
+	<!-- ChooseContactInactiveScrollActivity -->
+	<color name="choose_contact_inactive_scroll_activity_choose_contact_inactive_scroll_constraint_layout_background_color">#FAFAFA</color>
+	<color name="choose_contact_inactive_scroll_activity_janet_perkins_text_view_text_color">#545555</color>
+	<color name="choose_contact_inactive_scroll_activity_mary_johnson_text_view_text_color">#545555</color>
+	<color name="choose_contact_inactive_scroll_activity_tina_santiago_text_view_text_color">#545555</color>
+	<color name="choose_contact_inactive_scroll_activity_trevor_hansen_text_view_text_color">#545555</color>
+	<color name="choose_contact_inactive_scroll_activity_amar_sagoo_text_view_text_color">#545555</color>
+	<color name="choose_contact_inactive_scroll_activity_abbey_christensen_text_view_text_color">#545555</color>
+	<color name="choose_contact_inactive_scroll_activity_ali_connors_text_view_text_color">#545555</color>
+	<color name="choose_contact_inactive_scroll_activity_alex_nelson_text_view_text_color">#545555</color>
+	<color name="choose_contact_inactive_scroll_activity_anthony_stevens_text_view_text_color">#545555</color>
+	<color name="choose_contact_inactive_scroll_activity_a_two_text_view_text_color">#000000</color>
+	<color name="choose_contact_inactive_scroll_activity_notification_constraint_layout_background_color">#46A89B</color>
+	<color name="choose_contact_inactive_scroll_activity_notification_constraint_layout_border_color">#FFFFFF</color>
+	<color name="choose_contact_inactive_scroll_activity_a_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_inactive_scroll_activity_track_constraint_layout_background_color">#FFFFFF</color>
+	<color name="choose_contact_inactive_scroll_activity_knob_constraint_layout_background_color">#4D4D4D</color>
+	<color name="choose_contact_inactive_scroll_activity_knob_constraint_layout_border_color">#FFFFFF</color>
+	<color name="choose_contact_inactive_scroll_activity_to_reason_constraint_layout_background_color">#46A89B</color>
+	<color name="choose_contact_inactive_scroll_activity_reason_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_inactive_scroll_activity_add_reason_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_inactive_scroll_activity_to_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_inactive_scroll_activity_add_recepient_text_view_text_color">#FFFFFF</color>
+	<color name="choose_contact_inactive_scroll_activity_app_bar_constraint_layout_background_color">#46A89B</color>
+	<color name="choose_contact_inactive_scroll_activity_text_view_text_view_text_color">#FFFFFF</color>
+	
+	<!-- TransferTabHelpPopupActivity -->
+	<color name="transfer_tab_help_popup_activity_transfer_tab_help_popup_constraint_layout_background_color">#FFFFFF</color>
+	<color name="transfer_tab_help_popup_activity_send_text_view_text_color">#FFFFFF</color>
+	<color name="transfer_tab_help_popup_activity_request_text_view_text_color">#FFFFFF</color>
+	<color name="transfer_tab_help_popup_activity_line_constraint_layout_background_color">#FFFFFF</color>
+	<color name="transfer_tab_help_popup_activity_text_view_text_view_text_color">#46A89B</color>
+	<color name="transfer_tab_help_popup_activity_text_view_two_text_view_text_color">#46A89B</color>
+	<color name="transfer_tab_help_popup_activity_text_view_three_text_view_text_color">#46A89B</color>
+	<color name="transfer_tab_help_popup_activity_tabs_copy_constraint_layout_background_color">#46A89B</color>
+	<color name="transfer_tab_help_popup_activity_app_bar_copy_constraint_layout_background_color">#46A89B</color>
+	<color name="transfer_tab_help_popup_activity_transfer_text_view_text_color">#FFFFFF</color>
+	<color name="transfer_tab_help_popup_activity_scrim_constraint_layout_background_color">#80323232</color>
+	<color name="transfer_tab_help_popup_activity_yup_that_simple_text_view_text_color">#545555</color>
+	<color name="transfer_tab_help_popup_activity_how_it_works_text_view_text_color">#FFFFFF</color>
+	<color name="transfer_tab_help_popup_activity_select_amount_text_view_text_color">#545555</color>
+	<color name="transfer_tab_help_popup_activity_select_who_text_view_text_color">#545555</color>
+	<color name="transfer_tab_help_popup_activity_tap_confirm_text_view_text_color">#545555</color>
+	
+	<!-- TransferTabActivity -->
+	<color name="transfer_tab_activity_transfer_tab_constraint_layout_background_color">#FFFFFF</color>
+	<color name="transfer_tab_activity_send_text_view_text_color">#FFFFFF</color>
+	<color name="transfer_tab_activity_request_text_view_text_color">#FFFFFF</color>
+	<color name="transfer_tab_activity_line_constraint_layout_background_color">#FFFFFF</color>
+	<color name="transfer_tab_activity_text_view_text_view_text_color">#46A89B</color>
+	<color name="transfer_tab_activity_text_view_two_text_view_text_color">#46A89B</color>
+	<color name="transfer_tab_activity_text_view_three_text_view_text_color">#46A89B</color>
+	<color name="transfer_tab_activity_tabs_constraint_layout_background_color">#46A89B</color>
+	<color name="transfer_tab_activity_app_bar_constraint_layout_background_color">#46A89B</color>
+	<color name="transfer_tab_activity_transfer_text_view_text_color">#FFFFFF</color>
+	
+	<!-- SettingsAddBankAccountActivity -->
+	<color name="settings_add_bank_account_activity_settings_add_bank_account_constraint_layout_background_color">#ECEEF1</color>
+	<color name="settings_add_bank_account_activity_card_copy_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_add_bank_account_activity_row_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_add_bank_account_activity_add_iban_text_view_text_color">#D1D1D1</color>
+	<color name="settings_add_bank_account_activity_iban_text_view_text_color">#545555</color>
+	<color name="settings_add_bank_account_activity_card_copy_two_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_add_bank_account_activity_row_two_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_add_bank_account_activity_add_bic_text_view_text_color">#D1D1D1</color>
+	<color name="settings_add_bank_account_activity_bic_text_view_text_color">#545555</color>
+	<color name="settings_add_bank_account_activity_app_bar_constraint_layout_background_color">#46A89B</color>
+	<color name="settings_add_bank_account_activity_add_bank_account_text_view_text_color">#FFFFFF</color>
+	
+	<!-- SettingsEditBankAccountActivity -->
+	<color name="settings_edit_bank_account_activity_settings_edit_bank_account_constraint_layout_background_color">#ECEEF1</color>
+	<color name="settings_edit_bank_account_activity_card_copy_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_bank_account_activity_row_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_bank_account_activity_it40s054281110100000_text_view_text_color">#545555</color>
+	<color name="settings_edit_bank_account_activity_iban_text_view_text_color">#4D4D4D</color>
+	<color name="settings_edit_bank_account_activity_card_copy_two_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_bank_account_activity_row_two_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_bank_account_activity_pspbfihh_text_view_text_color">#545555</color>
+	<color name="settings_edit_bank_account_activity_bic_text_view_text_color">#4D4D4D</color>
+	<color name="settings_edit_bank_account_activity_app_bar_constraint_layout_background_color">#46A89B</color>
+	<color name="settings_edit_bank_account_activity_edit_bank_account_text_view_text_color">#FFFFFF</color>
+	<color name="settings_edit_bank_account_activity_delete_bank_account_text_view_text_color">#FFFFFF</color>
+	
+	<!-- SettingsEditActivity -->
+	<color name="settings_edit_activity_settings_edit_constraint_layout_background_color">#ECEEF1</color>
+	<color name="settings_edit_activity_card_copy_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_row_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_text_view_text_view_text_color">#545555</color>
+	<color name="settings_edit_activity_row_copy3_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_add_new_text_view_text_color">#46A89B</color>
+	<color name="settings_edit_activity_phones_text_view_text_color">#545555</color>
+	<color name="settings_edit_activity_card_copy_two_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_row_two_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_carol_pierce_gmail_ctext_view_text_color">#545555</color>
+	<color name="settings_edit_activity_row_copy_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_carol_pierce_yolo_co_text_view_text_color">#545555</color>
+	<color name="settings_edit_activity_row_copy3_two_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_add_new_two_text_view_text_color">#46A89B</color>
+	<color name="settings_edit_activity_emails_text_view_text_color">#545555</color>
+	<color name="settings_edit_activity_card_copy_three_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_row_three_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_carol_text_view_text_color">#545555</color>
+	<color name="settings_edit_activity_row_copy_two_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_pierce_text_view_text_color">#545555</color>
+	<color name="settings_edit_activity_details_text_view_text_color">#545555</color>
+	<color name="settings_edit_activity_card_copy_four_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_avatar_text_view_text_color">#545555</color>
+	<color name="settings_edit_activity_card_copy_five_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_row_four_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_iban_it40s054281110_text_view_text_color">#545555</color>
+	<color name="settings_edit_activity_row_copy3_three_constraint_layout_background_color">#FAFAFA</color>
+	<color name="settings_edit_activity_add_new_three_text_view_text_color">#46A89B</color>
+	<color name="settings_edit_activity_bank_accounts_text_view_text_color">#545555</color>
+	<color name="settings_edit_activity_app_bar_constraint_layout_background_color">#46A89B</color>
+	<color name="settings_edit_activity_edit_profile_text_view_text_color">#FFFFFF</color>
+	
+	<!-- SettingsTabActivity -->
+	<color name="settings_tab_activity_settings_tab_constraint_layout_background_color">#FFFFFF</color>
+	<color name="settings_tab_activity_header_copy2_constraint_layout_background_color">#ECEEF1</color>
+	<color name="settings_tab_activity_notifications_text_view_text_color">#545555</color>
+	<color name="settings_tab_activity_rectangle391_copy_justin_scull_gmail_ccheck_on_check_off_copy_copy_copy_copy_constraint_layout_background_color">#FFFFFF</color>
+	<color name="settings_tab_activity_push_notifications_text_view_text_color">#545555</color>
+	<color name="settings_tab_activity_header_copy_constraint_layout_background_color">#ECEEF1</color>
+	<color name="settings_tab_activity_receipts_text_view_text_color">#545555</color>
+	<color name="settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_copy_constraint_layout_background_color">#FFFFFF</color>
+	<color name="settings_tab_activity_carol_pierce_yolo_co_text_view_text_color">#545555</color>
+	<color name="settings_tab_activity_rectangle391_copy_justin_scull_gmail_ccheck_on_check_off_copy_copy_constraint_layout_background_color">#FFFFFF</color>
+	<color name="settings_tab_activity_carol_pierce_gmail_ctext_view_text_color">#545555</color>
+	<color name="settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_constraint_layout_background_color">#FFFFFF</color>
+	<color name="settings_tab_activity_text_view_text_view_text_color">#545555</color>
+	<color name="settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_two_constraint_layout_background_color">#FFFFFF</color>
+	<color name="settings_tab_activity_carol_pierce_yolo_co_two_text_view_text_color">#545555</color>
+	<color name="settings_tab_activity_rectangle391_copy_justin_scull_gmail_ccheck_on_check_off_copy_constraint_layout_background_color">#FFFFFF</color>
+	<color name="settings_tab_activity_carol_pierce_gmail_ctwo_text_view_text_color">#545555</color>
+	<color name="settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_three_constraint_layout_background_color">#FFFFFF</color>
+	<color name="settings_tab_activity_it40s054281110100000_text_view_text_color">#545555</color>
+	<color name="settings_tab_activity_header_constraint_layout_background_color">#ECEEF1</color>
+	<color name="settings_tab_activity_your_info_text_view_text_color">#545555</color>
+	<color name="settings_tab_activity_carol_pierce_text_view_text_color">#FFFFFF</color>
+	<color name="settings_tab_activity_tabs_constraint_layout_background_color">#46A89B</color>
+	<color name="settings_tab_activity_app_bar_constraint_layout_background_color">#46A89B</color>
+	<color name="settings_tab_activity_profile_text_view_text_color">#FFFFFF</color>
+</resources>

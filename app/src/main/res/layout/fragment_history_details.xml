@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/history_details_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/history_details_activity_history_details_constraint_layout_background_color">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/transaction_constraint_layout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/history_details_activity_transaction_constraint_layout_height"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="8dp">
+
+        <View
+            android:id="@+id/rectangle290_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/history_details_activity_rectangle290_constraint_layout_height"
+            android:background="@color/history_details_activity_rectangle290_constraint_layout_background_color"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_constraint_layout"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <ImageView
+            android:id="@+id/arrow_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/history_details_activity_arrow_image_view_margin_top"
+            android:scaleType="center"
+            android:src="@drawable/arrow"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_constraint_layout"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="102dp" />
+
+        <ImageView
+            android:id="@+id/mask_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/history_details_activity_mask_image_view_margin_start"
+            android:layout_marginTop="@dimen/history_details_activity_mask_image_view_margin_top"
+            android:scaleType="center"
+            android:src="@drawable/mask_copy_3_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_constraint_layout"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <ImageView
+            android:id="@+id/mask_copy2_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/history_details_activity_mask_copy2_image_view_margin_top"
+            android:layout_marginEnd="@dimen/history_details_activity_mask_copy2_image_view_margin_end"
+            android:scaleType="center"
+            android:src="@drawable/mask_10"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_constraint_layout"
+            tools:layout_editor_absoluteX="228dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <TextView
+            android:id="@+id/you_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/history_details_activity_you_text_view_margin_start"
+            android:layout_marginBottom="@dimen/history_details_activity_you_text_view_margin_bottom"
+            android:gravity="center"
+            android:text="@string/history_details_activity_you_text_view_text"
+            android:textColor="@color/history_details_activity_you_text_view_text_color"
+            android:textSize="@dimen/history_details_activity_you_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="172dp" />
+
+        <TextView
+            android:id="@+id/amar_sagoo_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/history_details_activity_amar_sagoo_text_view_margin_end"
+            android:layout_marginBottom="@dimen/history_details_activity_amar_sagoo_text_view_margin_bottom"
+            android:gravity="center"
+            android:text="@string/history_details_activity_amar_sagoo_text_view_text"
+            android:textColor="@color/history_details_activity_amar_sagoo_text_view_text_color"
+            android:textSize="@dimen/history_details_activity_amar_sagoo_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteX="234dp"
+            tools:layout_editor_absoluteY="172dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/header_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/history_details_activity_header_constraint_layout_height"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/sent_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/history_details_activity_sent_text_view_margin_start"
+                android:gravity="start"
+                android:text="@string/history_details_activity_sent_text_view_text"
+                android:textColor="@color/history_details_activity_sent_text_view_text_color"
+                android:textSize="@dimen/history_details_activity_sent_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="14dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/details_constraint_layout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/history_details_activity_details_constraint_layout_height"
+        android:layout_marginTop="@dimen/history_details_activity_details_constraint_layout_margin_top"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transaction_constraint_layout"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="303dp">
+
+        <View
+            android:id="@+id/card_copy_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/history_details_activity_card_copy_constraint_layout_height"
+            android:background="@color/history_details_activity_card_copy_constraint_layout_background_color"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_two_constraint_layout"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="48dp"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/row_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/history_details_activity_row_copy2_constraint_layout_height"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/history_details_activity_row_constraint_layout_background_color"
+            app:layout_constraintHorizontal_weight="0.91"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/card_copy_constraint_layout">
+
+            <TextView
+                android:id="@+id/date_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/history_details_activity_date_text_view_text"
+                android:textColor="@color/history_details_activity_date_text_view_text_color"
+                android:textSize="@dimen/history_details_activity_date_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="15dp" />
+
+            <TextView
+                android:id="@+id/jan222015_text_view"
+                android:layout_width="@dimen/history_details_activity_jan222015_text_view_width"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/history_details_activity_jan222015_text_view_text"
+                android:textColor="@color/history_details_activity_jan222015_text_view_text_color"
+                android:textSize="@dimen/history_details_activity_jan222015_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/row_copy_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/history_details_activity_row_copy_constraint_layout_height"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/history_details_activity_row_copy_constraint_layout_background_color"
+            app:layout_constraintHorizontal_weight="0.91"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/row_copy3_constraint_layout">
+
+            <TextView
+                android:id="@+id/status_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/history_details_activity_status_text_view_text"
+                android:textColor="@color/history_details_activity_status_text_view_text_color"
+                android:textSize="@dimen/history_details_activity_status_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="15dp" />
+
+            <TextView
+                android:id="@+id/pending_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/history_details_activity_pending_text_view_text"
+                android:textColor="@color/history_details_activity_pending_text_view_text_color"
+                android:textSize="@dimen/history_details_activity_pending_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="268dp"
+                tools:layout_editor_absoluteY="15dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/row_copy2_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/history_details_activity_row_copy2_constraint_layout_height"
+            android:layout_marginEnd="@dimen/history_details_activity_row_copy2_constraint_layout_margin_end"
+            android:layout_marginStart="@dimen/history_details_activity_row_copy2_constraint_layout_margin_start"
+            android:layout_marginTop="@dimen/history_details_activity_row_copy2_constraint_layout_margin_top"
+            android:background="@color/history_details_activity_row_copy2_constraint_layout_background_color"
+            app:layout_constraintHorizontal_weight="0.91"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/row_copy_constraint_layout"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="146dp">
+
+            <TextView
+                android:id="@+id/amount_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/history_details_activity_amount_text_view_text"
+                android:textColor="@color/history_details_activity_amount_text_view_text_color"
+                android:textSize="@dimen/history_details_activity_amount_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="15dp"/>
+
+            <TextView
+                android:id="@+id/text_view_text_view"
+                android:layout_width="@dimen/history_details_activity_text_view_text_view_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/history_details_activity_text_view_text_view_margin_top"
+                android:gravity="end"
+                android:text="@string/history_details_activity_text_view_text_view_text"
+                android:textColor="@color/history_details_activity_text_view_text_view_text_color"
+                android:textSize="@dimen/history_details_activity_text_view_text_view_text_size"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="278dp"
+                tools:layout_editor_absoluteY="15dp"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/row_copy3_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/history_details_activity_row_copy3_constraint_layout_height"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/history_details_activity_row_copy3_constraint_layout_background_color"
+            app:layout_constraintHorizontal_weight="0.91"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/row_constraint_layout">
+
+            <TextView
+                android:id="@+id/reason_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/history_details_activity_reason_text_view_text"
+                android:textColor="@color/history_details_activity_reason_text_view_text_color"
+                android:textSize="@dimen/history_details_activity_reason_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="15dp" />
+
+            <TextView
+                android:id="@+id/dinner_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/history_details_activity_dinner_text_view_text"
+                android:textColor="@color/history_details_activity_dinner_text_view_text_color"
+                android:textSize="@dimen/history_details_activity_dinner_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="280dp"
+                tools:layout_editor_absoluteY="15dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/header_two_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/history_details_activity_header_two_constraint_layout_height"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/details_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/history_details_activity_details_text_view_margin_start"
+                android:gravity="start"
+                android:text="@string/history_details_activity_details_text_view_text"
+                android:textColor="@color/history_details_activity_details_text_view_text_color"
+                android:textSize="@dimen/history_details_activity_details_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="14dp"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/navbar_image_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/history_details_activity_navbar_image_view_margin_bottom"
+        android:scaleType="centerCrop"
+        android:src="@drawable/navbar"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">@color/color_primary</item>
+		<item name="colorPrimaryDark">@color/color_primary_dark</item>
+		<item name="colorAccent">@color/color_accent</item>
+	</style>
+	
+	<!-- HistoryDetailsActivity -->
+	<style name="HistoryDetailsActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- HistoryTabActivity -->
+	<style name="HistoryTabActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- TransactionConfirmMultipleActivity -->
+	<style name="TransactionConfirmMultipleActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- TransactionConfirmSingleActivity -->
+	<style name="TransactionConfirmSingleActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- ChooseContactReasonActivity -->
+	<style name="ChooseContactReasonActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- ChooseContactSelectActivity -->
+	<style name="ChooseContactSelectActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- ChooseContactActiveActivity -->
+	<style name="ChooseContactActiveActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- ChooseContactInactiveScrollActivity -->
+	<style name="ChooseContactInactiveScrollActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- TransferTabHelpPopupActivity -->
+	<style name="TransferTabHelpPopupActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- TransferTabActivity -->
+	<style name="TransferTabActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- SettingsAddBankAccountActivity -->
+	<style name="SettingsAddBankAccountActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- SettingsEditBankAccountActivity -->
+	<style name="SettingsEditBankAccountActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- SettingsEditActivity -->
+	<style name="SettingsEditActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- SettingsTabActivity -->
+	<style name="SettingsTabActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+</resources>

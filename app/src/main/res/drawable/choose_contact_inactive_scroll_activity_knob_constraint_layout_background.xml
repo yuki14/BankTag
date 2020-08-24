@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<corners android:radius="@dimen/choose_contact_inactive_scroll_activity_knob_constraint_layout_radius"/>
+
+	<solid android:color="@color/choose_contact_inactive_scroll_activity_knob_constraint_layout_background_color"/>
+</shape>

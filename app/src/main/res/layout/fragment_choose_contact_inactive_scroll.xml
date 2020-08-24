@@ -1,0 +1,477 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/choose_contact_inactive_scroll_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/choose_contact_inactive_scroll_activity_choose_contact_inactive_scroll_constraint_layout_background_color">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/list_constraint_layout"
+        android:layout_width="@dimen/choose_contact_inactive_scroll_activity_list_constraint_layout_width"
+        android:layout_height="@dimen/choose_contact_inactive_scroll_activity_list_constraint_layout_height"
+        android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_list_constraint_layout_margin_start"
+        android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_list_constraint_layout_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/to_reason_constraint_layout"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="192dp">
+
+        <TextView
+            android:id="@+id/janet_perkins_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/choose_contact_inactive_scroll_activity_janet_perkins_text_view_margin_end"
+            android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_janet_perkins_text_view_margin_top"
+            android:gravity="start"
+            android:text="@string/choose_contact_inactive_scroll_activity_janet_perkins_text_view_text"
+            android:textColor="@color/choose_contact_inactive_scroll_activity_janet_perkins_text_view_text_color"
+            android:textSize="@dimen/choose_contact_inactive_scroll_activity_janet_perkins_text_view_text_size"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="104dp"
+            tools:layout_editor_absoluteY="9dp"/>
+
+        <TextView
+            android:id="@+id/mary_johnson_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="start"
+            android:text="@string/choose_contact_inactive_scroll_activity_mary_johnson_text_view_text"
+            android:textColor="@color/choose_contact_inactive_scroll_activity_mary_johnson_text_view_text_color"
+            android:textSize="@dimen/choose_contact_inactive_scroll_activity_mary_johnson_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/mask_eight_image_view"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/mask_eight_image_view"
+            app:layout_constraintTop_toTopOf="@+id/mask_eight_image_view" />
+
+        <TextView
+            android:id="@+id/tina_santiago_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="start"
+            android:text="@string/choose_contact_inactive_scroll_activity_tina_santiago_text_view_text"
+            android:textColor="@color/choose_contact_inactive_scroll_activity_tina_santiago_text_view_text_color"
+            android:textSize="@dimen/choose_contact_inactive_scroll_activity_tina_santiago_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/mask_seven_image_view"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/mask_seven_image_view"
+            app:layout_constraintTop_toTopOf="@+id/mask_seven_image_view" />
+
+        <TextView
+            android:id="@+id/trevor_hansen_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="start"
+            android:text="@string/choose_contact_inactive_scroll_activity_trevor_hansen_text_view_text"
+            android:textColor="@color/choose_contact_inactive_scroll_activity_trevor_hansen_text_view_text_color"
+            android:textSize="@dimen/choose_contact_inactive_scroll_activity_trevor_hansen_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/mask_six_image_view"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/mask_six_image_view"
+            app:layout_constraintTop_toTopOf="@+id/mask_six_image_view" />
+
+        <TextView
+            android:id="@+id/amar_sagoo_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="start"
+            android:text="@string/choose_contact_inactive_scroll_activity_amar_sagoo_text_view_text"
+            android:textColor="@color/choose_contact_inactive_scroll_activity_amar_sagoo_text_view_text_color"
+            android:textSize="@dimen/choose_contact_inactive_scroll_activity_amar_sagoo_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/mask_five_image_view"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/mask_five_image_view"
+            app:layout_constraintTop_toTopOf="@+id/mask_five_image_view" />
+
+        <TextView
+            android:id="@+id/abbey_christensen_text_view"
+            android:layout_width="@dimen/choose_contact_inactive_scroll_activity_abbey_christensen_text_view_width"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="@string/choose_contact_inactive_scroll_activity_abbey_christensen_text_view_text"
+            android:textColor="@color/choose_contact_inactive_scroll_activity_abbey_christensen_text_view_text_color"
+            android:textSize="@dimen/choose_contact_inactive_scroll_activity_abbey_christensen_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/mask_four_image_view"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/mask_four_image_view" />
+
+        <TextView
+            android:id="@+id/ali_connors_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="start"
+            android:text="@string/choose_contact_inactive_scroll_activity_ali_connors_text_view_text"
+            android:textColor="@color/choose_contact_inactive_scroll_activity_ali_connors_text_view_text_color"
+            android:textSize="@dimen/choose_contact_inactive_scroll_activity_ali_connors_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/mask_three_image_view"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/mask_three_image_view"
+            app:layout_constraintTop_toTopOf="@+id/mask_three_image_view" />
+
+        <TextView
+            android:id="@+id/alex_nelson_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="start"
+            android:text="@string/choose_contact_inactive_scroll_activity_alex_nelson_text_view_text"
+            android:textColor="@color/choose_contact_inactive_scroll_activity_alex_nelson_text_view_text_color"
+            android:textSize="@dimen/choose_contact_inactive_scroll_activity_alex_nelson_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/mask_two_image_view"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/mask_two_image_view"
+            app:layout_constraintTop_toTopOf="@+id/mask_two_image_view" />
+
+        <TextView
+            android:id="@+id/anthony_stevens_text_view"
+            android:layout_width="@dimen/choose_contact_inactive_scroll_activity_anthony_stevens_text_view_width"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="start"
+            android:text="@string/choose_contact_inactive_scroll_activity_anthony_stevens_text_view_text"
+            android:textColor="@color/choose_contact_inactive_scroll_activity_anthony_stevens_text_view_text_color"
+            android:textSize="@dimen/choose_contact_inactive_scroll_activity_anthony_stevens_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/mask_image_view"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/mask_image_view"
+            app:layout_constraintTop_toTopOf="@+id/mask_image_view" />
+
+        <ImageView
+            android:id="@+id/mask_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_mask_image_view_margin_start"
+            android:scaleType="center"
+            android:src="@drawable/mask_8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="464dp"/>
+
+        <ImageView
+            android:id="@+id/mask_two_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/choose_contact_inactive_scroll_activity_mask_two_image_view_margin_bottom"
+            android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_mask_two_image_view_margin_start"
+            android:scaleType="center"
+            android:src="@drawable/mask_6"
+            app:layout_constraintBottom_toTopOf="@+id/mask_image_view"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="408dp"/>
+
+        <ImageView
+            android:id="@+id/mask_three_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_mask_three_image_view_margin_start"
+            android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_mask_three_image_view_margin_top"
+            android:scaleType="center"
+            android:src="@drawable/mask_14"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mask_four_image_view"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="352dp"/>
+
+        <ImageView
+            android:id="@+id/mask_four_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_mask_four_image_view_margin_start"
+            android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_mask_four_image_view_margin_top"
+            android:scaleType="center"
+            android:src="@drawable/mask_19"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mask_five_image_view"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="296dp"/>
+
+        <ImageView
+            android:id="@+id/mask_five_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_mask_five_image_view_margin_start"
+            android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_mask_five_image_view_margin_top"
+            android:scaleType="center"
+            android:src="@drawable/mask_4"
+            app:layout_constraintLeft_toRightOf="@+id/a_two_text_view"
+            app:layout_constraintTop_toBottomOf="@+id/mask_six_image_view"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="240dp"/>
+
+        <ImageView
+            android:id="@+id/mask_six_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_mask_six_image_view_margin_start"
+            android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_mask_six_image_view_margin_top"
+            android:scaleType="center"
+            android:src="@drawable/mask_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mask_seven_image_view"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="168dp"/>
+
+        <ImageView
+            android:id="@+id/mask_seven_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_mask_seven_image_view_margin_start"
+            android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_mask_seven_image_view_margin_top"
+            android:scaleType="center"
+            android:src="@drawable/mask_9"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mask_eight_image_view"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="112dp"/>
+
+        <ImageView
+            android:id="@+id/mask_eight_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_mask_eight_image_view_margin_start"
+            android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_mask_eight_image_view_margin_top"
+            android:scaleType="center"
+            android:src="@drawable/mask_7"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mask_nine_image_view"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="56dp"/>
+
+        <ImageView
+            android:id="@+id/mask_nine_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_mask_nine_image_view_margin_start"
+            android:scaleType="center"
+            android:src="@drawable/mask_3"
+            app:layout_constraintLeft_toRightOf="@+id/star_image_view"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+        <TextView
+            android:id="@+id/a_two_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_a_two_text_view_margin_start"
+            android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_a_two_text_view_margin_top"
+            android:gravity="start"
+            android:text="@string/choose_contact_inactive_scroll_activity_a_two_text_view_text"
+            android:textColor="@color/choose_contact_inactive_scroll_activity_a_two_text_view_text_color"
+            android:textSize="@dimen/choose_contact_inactive_scroll_activity_a_two_text_view_text_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/star_image_view"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="246dp"/>
+
+        <ImageView
+            android:id="@+id/star_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_star_image_view_margin_top"
+            android:scaleType="center"
+            android:src="@drawable/star"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="10dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/notification_constraint_layout"
+        android:layout_width="@dimen/choose_contact_inactive_scroll_activity_notification_constraint_layout_width"
+        android:layout_height="@dimen/choose_contact_inactive_scroll_activity_notification_constraint_layout_height"
+        android:layout_marginEnd="@dimen/choose_contact_inactive_scroll_activity_notification_constraint_layout_margin_end"
+        android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_notification_constraint_layout_margin_top"
+        android:background="@color/choose_contact_inactive_scroll_activity_notification_constraint_layout_background_color"
+        app:layout_constraintRight_toLeftOf="@+id/scroller_constraint_layout"
+        app:layout_constraintTop_toBottomOf="@+id/to_reason_constraint_layout"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="266dp">
+
+        <TextView
+            android:id="@+id/a_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="center"
+            android:letterSpacing="0.05"
+            android:text="@string/choose_contact_inactive_scroll_activity_a_text_view_text"
+            android:textColor="@color/choose_contact_inactive_scroll_activity_a_text_view_text_color"
+            android:textSize="@dimen/choose_contact_inactive_scroll_activity_a_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="18dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/scroller_constraint_layout"
+        android:layout_width="@dimen/choose_contact_inactive_scroll_activity_scroller_constraint_layout_width"
+        android:layout_height="@dimen/choose_contact_inactive_scroll_activity_scroller_constraint_layout_height"
+        android:layout_marginEnd="@dimen/choose_contact_inactive_scroll_activity_scroller_constraint_layout_margin_end"
+        android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_scroller_constraint_layout_margin_top"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/to_reason_constraint_layout"
+        tools:layout_editor_absoluteX="340dp"
+        tools:layout_editor_absoluteY="193dp">
+
+        <View
+            android:id="@+id/track_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/choose_contact_inactive_scroll_activity_track_constraint_layout_height"
+            android:layout_marginEnd="@dimen/choose_contact_inactive_scroll_activity_track_constraint_layout_margin_end"
+            android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_track_constraint_layout_margin_start"
+            android:background="@color/choose_contact_inactive_scroll_activity_track_constraint_layout_background_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_weight="0.12"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+        <View
+            android:id="@+id/knob_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/choose_contact_inactive_scroll_activity_knob_constraint_layout_height"
+            android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_knob_constraint_layout_margin_top"
+            android:background="@drawable/choose_contact_inactive_scroll_activity_knob_constraint_layout_background"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/to_reason_constraint_layout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/choose_contact_inactive_scroll_activity_to_reason_constraint_layout_height"
+        android:background="@color/choose_contact_inactive_scroll_activity_to_reason_constraint_layout_background_color"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/row_reason_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/choose_contact_inactive_scroll_activity_row_reason_constraint_layout_height"
+            android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_row_reason_constraint_layout_margin_start"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="48dp">
+
+            <TextView
+                android:id="@+id/reason_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_reason_text_view_margin_start"
+                android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_reason_text_view_margin_top"
+                android:fontFamily="@font/font_applesystemuifont"
+                android:gravity="start"
+                android:lineSpacingMultiplier="1.26"
+                android:text="@string/choose_contact_inactive_scroll_activity_reason_text_view_text"
+                android:textColor="@color/choose_contact_inactive_scroll_activity_reason_text_view_text_color"
+                android:textSize="@dimen/choose_contact_inactive_scroll_activity_reason_text_view_text_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <TextView
+                android:id="@+id/add_reason_text_view"
+                android:layout_width="@dimen/choose_contact_inactive_scroll_activity_add_reason_text_view_width"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_add_reason_text_view_margin_start"
+                android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_add_reason_text_view_margin_top"
+                android:alpha="0.3"
+                android:fontFamily="@font/font_applesystemuifont"
+                android:gravity="start"
+                android:lineSpacingMultiplier="1.26"
+                android:text="@string/choose_contact_inactive_scroll_activity_add_reason_text_view_text"
+                android:textColor="@color/choose_contact_inactive_scroll_activity_add_reason_text_view_text_color"
+                android:textSize="@dimen/choose_contact_inactive_scroll_activity_add_reason_text_view_text_size"
+                app:layout_constraintLeft_toRightOf="@+id/reason_text_view"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="124dp"
+                tools:layout_editor_absoluteY="8dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/row_to_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/choose_contact_inactive_scroll_activity_row_to_constraint_layout_height"
+            android:layout_marginEnd="@dimen/choose_contact_inactive_scroll_activity_row_to_constraint_layout_margin_end"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/to_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/choose_contact_inactive_scroll_activity_to_text_view_margin_start"
+                android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_to_text_view_margin_top"
+                android:fontFamily="@font/font_applesystemuifont"
+                android:gravity="start"
+                android:lineSpacingMultiplier="1.26"
+                android:text="@string/choose_contact_inactive_scroll_activity_to_text_view_text"
+                android:textColor="@color/choose_contact_inactive_scroll_activity_to_text_view_text_color"
+                android:textSize="@dimen/choose_contact_inactive_scroll_activity_to_text_view_text_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <TextView
+                android:id="@+id/add_recepient_text_view"
+                android:layout_width="@dimen/choose_contact_inactive_scroll_activity_add_recepient_text_view_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/choose_contact_inactive_scroll_activity_add_recepient_text_view_margin_top"
+                android:layout_marginEnd="@dimen/choose_contact_inactive_scroll_activity_add_recepient_text_view_margin_end"
+                android:alpha="0.3"
+                android:fontFamily="@font/font_applesystemuifont"
+                android:gravity="start"
+                android:lineSpacingMultiplier="1.26"
+                android:text="@string/choose_contact_inactive_scroll_activity_add_recepient_text_view_text"
+                android:textColor="@color/choose_contact_inactive_scroll_activity_add_recepient_text_view_text_color"
+                android:textSize="@dimen/choose_contact_inactive_scroll_activity_add_recepient_text_view_text_size"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="124dp"
+                tools:layout_editor_absoluteY="8dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/navbar_image_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/choose_contact_inactive_scroll_activity_navbar_image_view_margin_bottom"
+        android:scaleType="centerCrop"
+        android:src="@drawable/navbar"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

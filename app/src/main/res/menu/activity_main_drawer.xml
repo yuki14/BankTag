@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Lessons" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_send_24"
+            android:title="Courses" />
+        <item
+            android:id="@+id/nav_qr_scan"
+            android:icon="@drawable/ic_baseline_access_time_24"
+            android:orderInCategory="1"
+            android:title="Challenge"/>
+        <item
+            android:id="@+id/nav_auth"
+            android:icon="@drawable/ic_baseline_access_time_24"
+            android:orderInCategory="1"
+        android:title="Play"/>
+    </group>
+
+    <item
+        android:orderInCategory="1">
+        <menu>
+            <item
+                android:id="@+id/nav_send_data"
+                android:icon="@drawable/ic_baseline_send_24"
+                android:orderInCategory="1"
+                android:title="Settings"/>
+        </menu>
+    </item>
+
+
+</menu>

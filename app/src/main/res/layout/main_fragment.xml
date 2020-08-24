@@ -1,0 +1,559 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings_tab_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/settings_tab_activity_settings_tab_constraint_layout_background_color">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/notifications_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/settings_tab_activity_notifications_constraint_layout_height"
+            android:layout_marginBottom="@dimen/settings_tab_activity_notifications_constraint_layout_margin_bottom"
+            app:layout_constraintBottom_toTopOf="@+id/navbar_image_view"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="818dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/header_copy2_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/settings_tab_activity_header_copy2_constraint_layout_height"
+                android:background="@color/settings_tab_activity_header_copy2_constraint_layout_background_color"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <TextView
+                    android:id="@+id/notifications_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/settings_tab_activity_notifications_text_view_margin_start"
+                    android:gravity="start"
+                    android:text="@string/settings_tab_activity_notifications_text_view_text"
+                    android:textColor="@color/settings_tab_activity_notifications_text_view_text_color"
+                    android:textSize="@dimen/settings_tab_activity_notifications_text_view_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="6dp"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/rectangle391_copy_justin_scull_gmail_ccheck_on_check_off_copy_copy_copy_copy_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/settings_tab_activity_rectangle391_copy_justin_scull_gmail_ccheck_on_check_off_copy_copy_copy_copy_constraint_layout_height"
+                android:background="@color/settings_tab_activity_rectangle391_copy_justin_scull_gmail_ccheck_on_check_off_copy_copy_copy_copy_constraint_layout_background_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="48dp">
+
+                <ImageView
+                    android:id="@+id/switch_on_image_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/settings_tab_activity_switch_on_image_view_margin_end"
+                    android:layout_marginStart="@dimen/settings_tab_activity_switch_on_image_view_margin_start"
+                    android:scaleType="center"
+                    android:src="@drawable/switch_on"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_weight="0.11"
+                    app:layout_constraintLeft_toRightOf="@+id/push_notifications_text_view"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="304dp"
+                    tools:layout_editor_absoluteY="14dp"/>
+
+                <TextView
+                    android:id="@+id/push_notifications_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/settings_tab_activity_push_notifications_text_view_margin_start"
+                    android:gravity="start"
+                    android:text="@string/settings_tab_activity_push_notifications_text_view_text"
+                    android:textColor="@color/settings_tab_activity_push_notifications_text_view_text_color"
+                    android:textSize="@dimen/settings_tab_activity_push_notifications_text_view_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="14dp"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/receipts_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/settings_tab_activity_receipts_constraint_layout_height"
+            android:layout_marginBottom="@dimen/settings_tab_activity_receipts_constraint_layout_margin_bottom"
+            app:layout_constraintBottom_toTopOf="@+id/notifications_constraint_layout"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/your_info_constraint_layout">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/header_copy_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/settings_tab_activity_header_copy_constraint_layout_height"
+                android:background="@color/settings_tab_activity_header_copy_constraint_layout_background_color"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <TextView
+                    android:id="@+id/receipts_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/settings_tab_activity_receipts_text_view_margin_start"
+                    android:gravity="start"
+                    android:text="@string/settings_tab_activity_receipts_text_view_text"
+                    android:textColor="@color/settings_tab_activity_receipts_text_view_text_color"
+                    android:textSize="@dimen/settings_tab_activity_receipts_text_view_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="6dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/rectangle391_justin_scull_bonagor_check_on_check_off_copy_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_copy_constraint_layout_height"
+                android:background="@color/settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_copy_constraint_layout_background_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="96dp">
+
+                <TextView
+                    android:id="@+id/carol_pierce_yolo_co_text_view"
+                    android:layout_width="@dimen/settings_tab_activity_carol_pierce_yolo_co_text_view_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/settings_tab_activity_carol_pierce_yolo_co_text_view_margin_start"
+                    android:layout_marginTop="@dimen/settings_tab_activity_carol_pierce_yolo_co_text_view_margin_top"
+                    android:gravity="start"
+                    android:text="@string/settings_tab_activity_carol_pierce_yolo_co_text_view_text"
+                    android:textColor="@color/settings_tab_activity_carol_pierce_yolo_co_text_view_text_color"
+                    android:textSize="@dimen/settings_tab_activity_carol_pierce_yolo_co_text_view_text_size"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="14dp" />
+
+                <ImageView
+                    android:id="@+id/check_on_image_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/settings_tab_activity_check_on_image_view_margin_start"
+                    android:layout_marginEnd="@dimen/settings_tab_activity_check_on_image_view_margin_end"
+                    android:scaleType="center"
+                    android:src="@drawable/check_on"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_weight="0.07"
+                    app:layout_constraintLeft_toRightOf="@+id/carol_pierce_yolo_co_text_view"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="312dp"
+                    tools:layout_editor_absoluteY="12dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/rectangle391_copy_justin_scull_gmail_ccheck_on_check_off_copy_copy_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/settings_tab_activity_rectangle391_copy_justin_scull_gmail_ccheck_on_check_off_copy_copy_constraint_layout_height"
+                android:background="@color/settings_tab_activity_rectangle391_copy_justin_scull_gmail_ccheck_on_check_off_copy_copy_constraint_layout_background_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="48dp">
+
+                <TextView
+                    android:id="@+id/carol_pierce_gmail_ctext_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/settings_tab_activity_carol_pierce_gmail_ctext_view_margin_start"
+                    android:gravity="start"
+                    android:text="@string/settings_tab_activity_carol_pierce_gmail_ctext_view_text"
+                    android:textColor="@color/settings_tab_activity_carol_pierce_gmail_ctext_view_text_color"
+                    android:textSize="@dimen/settings_tab_activity_carol_pierce_gmail_ctext_view_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="14dp" />
+
+                <ImageView
+                    android:id="@+id/check_off_image_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/settings_tab_activity_check_off_image_view_margin_start"
+                    android:layout_marginEnd="@dimen/settings_tab_activity_check_off_image_view_margin_end"
+                    android:scaleType="center"
+                    android:src="@drawable/check_off"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_weight="0.07"
+                    app:layout_constraintLeft_toRightOf="@+id/carol_pierce_gmail_ctext_view"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="312dp"
+                    tools:layout_editor_absoluteY="12dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/your_info_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="32dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/avatar_constraint_layout">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/phone_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                app:layout_constraintHorizontal_weight="0.96"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteY="248dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/rectangle391_justin_scull_bonagor_check_on_check_off_constraint_layout"
+                    android:layout_width="@dimen/settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_constraint_layout_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_constraint_layout_background_color"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/text_view_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:text="@string/settings_tab_activity_text_view_text_view_text"
+                        android:textColor="@color/settings_tab_activity_text_view_text_view_text_color"
+                        android:textSize="@dimen/settings_tab_activity_text_view_text_view_text_size"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                    android:id="@+id/ic_local_phone_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_local_phone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="12dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/mail_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/settings_tab_activity_mail_constraint_layout_height"
+                android:layout_marginStart="@dimen/settings_tab_activity_mail_constraint_layout_margin_start"
+                android:layout_marginTop="@dimen/settings_tab_activity_mail_constraint_layout_margin_top"
+                app:layout_constraintHorizontal_weight="0.96"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bank_constraint_layout"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="136dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/rectangle391_justin_scull_bonagor_check_on_check_off_two_constraint_layout"
+                    android:layout_width="@dimen/settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_two_constraint_layout_width"
+                    android:layout_height="@dimen/settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_two_constraint_layout_height"
+                    android:background="@color/settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_two_constraint_layout_background_color"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    tools:layout_editor_absoluteX="55dp"
+                    tools:layout_editor_absoluteY="48dp">
+
+                    <TextView
+                        android:id="@+id/carol_pierce_yolo_co_two_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/settings_tab_activity_carol_pierce_yolo_co_two_text_view_margin_top"
+                        android:gravity="start"
+                        android:text="@string/settings_tab_activity_carol_pierce_yolo_co_two_text_view_text"
+                        android:textColor="@color/settings_tab_activity_carol_pierce_yolo_co_two_text_view_text_color"
+                        android:textSize="@dimen/settings_tab_activity_carol_pierce_yolo_co_two_text_view_text_size"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/rectangle391_copy_justin_scull_gmail_ccheck_on_check_off_copy_constraint_layout"
+                    android:layout_width="@dimen/settings_tab_activity_rectangle391_copy_justin_scull_gmail_ccheck_on_check_off_copy_constraint_layout_width"
+                    android:layout_height="@dimen/settings_tab_activity_rectangle391_copy_justin_scull_gmail_ccheck_on_check_off_copy_constraint_layout_height"
+                    android:background="@color/settings_tab_activity_rectangle391_copy_justin_scull_gmail_ccheck_on_check_off_copy_constraint_layout_background_color"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="55dp"
+                    tools:layout_editor_absoluteY="0dp">
+
+                    <TextView
+                        android:id="@+id/carol_pierce_gmail_ctwo_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/settings_tab_activity_carol_pierce_gmail_ctwo_text_view_margin_start"
+                        android:gravity="start"
+                        android:text="@string/settings_tab_activity_carol_pierce_gmail_ctwo_text_view_text"
+                        android:textColor="@color/settings_tab_activity_carol_pierce_gmail_ctwo_text_view_text_color"
+                        android:textSize="@dimen/settings_tab_activity_carol_pierce_gmail_ctwo_text_view_text_size"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:layout_editor_absoluteX="1dp"
+                        tools:layout_editor_absoluteY="15dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                    android:id="@+id/ic_mail_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/settings_tab_activity_ic_mail_image_view_margin_top"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_mail"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="12dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/bank_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/settings_tab_activity_bank_constraint_layout_height"
+                android:layout_marginStart="@dimen/settings_tab_activity_bank_constraint_layout_margin_start"
+                android:layout_marginTop="@dimen/settings_tab_activity_bank_constraint_layout_margin_top"
+                app:layout_constraintHorizontal_weight="0.96"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/header_constraint_layout"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="48dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/rectangle391_justin_scull_bonagor_check_on_check_off_three_constraint_layout"
+                    android:layout_width="@dimen/settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_three_constraint_layout_width"
+                    android:layout_height="@dimen/settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_three_constraint_layout_height"
+                    android:background="@color/settings_tab_activity_rectangle391_justin_scull_bonagor_check_on_check_off_three_constraint_layout_background_color"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="56dp"
+                    tools:layout_editor_absoluteY="0dp">
+
+                    <TextView
+                        android:id="@+id/it40s054281110100000_text_view"
+                        android:layout_width="@dimen/settings_tab_activity_it40s054281110100000_text_view_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/settings_tab_activity_it40s054281110100000_text_view_margin_top"
+                        android:fontFamily="@font/font_applesystemuifont"
+                        android:gravity="start"
+                        android:lineSpacingMultiplier="1.16"
+                        android:text="@string/settings_tab_activity_it40s054281110100000_text_view_text"
+                        android:textColor="@color/settings_tab_activity_it40s054281110100000_text_view_text_color"
+                        android:textSize="@dimen/settings_tab_activity_it40s054281110100000_text_view_text_size"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="11dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                    android:id="@+id/ic_account_balance_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/settings_tab_activity_ic_account_balance_image_view_margin_top"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_account_balance"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="15dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/header_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/settings_tab_activity_header_constraint_layout_height"
+                android:background="@color/settings_tab_activity_header_constraint_layout_background_color"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <TextView
+                    android:id="@+id/your_info_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/settings_tab_activity_your_info_text_view_margin_start"
+                    android:gravity="start"
+                    android:text="@string/settings_tab_activity_your_info_text_view_text"
+                    android:textColor="@color/settings_tab_activity_your_info_text_view_text_color"
+                    android:textSize="@dimen/settings_tab_activity_your_info_text_view_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="5dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/avatar_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/settings_tab_activity_avatar_constraint_layout_height"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tabs_constraint_layout"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="128dp">
+
+            <ImageView
+                android:id="@+id/rectangle421_image_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rectangle_421"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/mask_copy3_justin_scull_constraint_layout"
+                android:layout_width="@dimen/settings_tab_activity_mask_copy3_justin_scull_constraint_layout_width"
+                android:layout_height="@dimen/settings_tab_activity_mask_copy3_justin_scull_constraint_layout_height"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/carol_pierce_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/settings_tab_activity_carol_pierce_text_view_text"
+                android:textColor="@color/settings_tab_activity_carol_pierce_text_view_text_color"
+                android:textSize="@dimen/settings_tab_activity_carol_pierce_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_weight="0.97"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mask_copy3_image_view"
+                app:layout_constraintVertical_bias="0.18" />
+
+            <ImageView
+                android:id="@+id/mask_copy3_image_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:src="@drawable/mask_copy_3"
+                app:layout_constraintHorizontal_weight="0.71"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/mask_copy3_justin_scull_constraint_layout" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/tabs_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/settings_tab_activity_tabs_constraint_layout_height"
+            android:background="@color/settings_tab_activity_tabs_constraint_layout_background_color"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageView8"
+                app:layout_constraintHorizontal_bias="0.33"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_send_24" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.67"
+                app:layout_constraintStart_toEndOf="@+id/imageView8"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_access_time_24" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/navbar_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/settings_tab_activity_navbar_image_view_margin_bottom"
+            android:scaleType="centerCrop"
+            android:src="@drawable/navbar"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/notifications_constraint_layout"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

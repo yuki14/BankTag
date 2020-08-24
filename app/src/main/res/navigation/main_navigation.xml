@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.banktag.ui.main.MainFragment"
+        android:label="Profile"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_settingEditFragment"
+            app:destination="@id/settingEditFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_transferTabFragment"
+            app:destination="@id/transferTabFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_historyTabFragment"
+            app:destination="@id/historyTabFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_settingsEditBankAccountFragment"
+            app:destination="@id/settingsEditBankAccountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingEditFragment"
+        android:name="com.example.banktag.ui.main.SettingEditFragment"
+        android:label="EditProfile"
+        tools:layout="@layout/setting_edit_fragment" >
+        <action
+            android:id="@+id/action_settingEditFragment_to_settingAddBankAccountFragment"
+            app:destination="@id/settingAddBankAccountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingAddBankAccountFragment"
+        android:name="com.example.banktag.ui.main.SettingAddBankAccountFragment"
+        android:label="Add Bank Account"
+        tools:layout="@layout/setting_add_bank_account_fragment" >
+        <action
+            android:id="@+id/action_settingAddBankAccountFragment_to_settingsEditBankAccountFragment"
+            app:destination="@id/settingsEditBankAccountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transferTabFragment"
+        android:name="com.example.banktag.ui.main.TransferTabFragment"
+        android:label="Transfer"
+        tools:layout="@layout/transfer_tab_fragment">
+        <action
+            android:id="@+id/action_transferTabFragment_to_transferTabHelpPopupFragment"
+            app:destination="@id/transferTabHelpPopupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyTabFragment"
+        android:name="com.example.banktag.ui.main.HistoryTabFragment"
+        android:label="History"
+        tools:layout="@layout/history_tab_fragment">
+        <action
+            android:id="@+id/action_historyTabFragment_to_historyDetailsFragment"
+            app:destination="@id/historyDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyDetailsFragment"
+        android:name="com.example.banktag.ui.main.HistoryDetailsFragment"
+        android:label="Amar Sagoo"
+        tools:layout="@layout/history_details_fragment"/>
+    <fragment
+        android:id="@+id/changeContactReasonFragment"
+        android:name="com.example.banktag.ui.main.ChangeContactReasonFragment"
+        android:label="$23.50"
+        tools:layout="@layout/fragment_change_contact_reason">
+        <action
+            android:id="@+id/action_changeContactReasonFragment_to_transactionConfirmMultipleFragment"
+            app:destination="@id/transactionConfirmMultipleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseContactActiveFragment"
+        android:name="com.example.banktag.ui.main.ChooseContactActiveFragment"
+        android:label="$23.50"
+        tools:layout="@layout/fragment_choose_contact_active">
+        <action
+            android:id="@+id/action_chooseContactActiveFragment_to_chooseContactSelectFragment"
+            app:destination="@id/chooseContactSelectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseContactInactiveScrollFragment"
+        android:name="com.example.banktag.ui.main.ChooseContactInactiveScrollFragment"
+        android:label="$23.50"
+        tools:layout="@layout/fragment_choose_contact_inactive_scroll">
+        <action
+            android:id="@+id/action_chooseContactInactiveScrollFragment_to_chooseContactActiveFragment"
+            app:destination="@id/chooseContactActiveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseContactSelectFragment"
+        android:name="com.example.banktag.ui.main.ChooseContactSelectFragment"
+        android:label="$23.50"
+        tools:layout="@layout/fragment_choose_contact_select">
+        <action
+            android:id="@+id/action_chooseContactSelectFragment_to_changeContactReasonFragment"
+            app:destination="@id/changeContactReasonFragment" />
+        <action
+            android:id="@+id/action_chooseContactSelectFragment_to_transactionConfirmSingleFragment"
+            app:destination="@id/transactionConfirmSingleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsEditBankAccountFragment"
+        android:name="com.example.banktag.ui.main.SettingsEditBankAccountFragment"
+        android:label="Edit Bank Account"
+        tools:layout="@layout/fragment_settings_edit_bank_account"/>
+    <fragment
+        android:id="@+id/settingsTabFragment"
+        android:name="com.example.banktag.ui.main.SettingsTabFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_settings_tab"/>
+    <fragment
+        android:id="@+id/transactionConfirmMultipleFragment"
+        android:name="com.example.banktag.ui.main.TransactionConfirmMultipleFragment"
+        android:label="Request"
+        tools:layout="@layout/fragment_transaction_confirm_multiple"/>
+    <fragment
+        android:id="@+id/transactionConfirmSingleFragment"
+        android:name="com.example.banktag.ui.main.TransactionConfirmSingleFragment"
+        android:label="Send"
+        tools:layout="@layout/fragment_transaction_confirm_single"/>
+    <fragment
+        android:id="@+id/transferTabHelpPopupFragment"
+        android:name="com.example.banktag.ui.main.TransferTabHelpPopupFragment"
+        android:label="Transfer"
+        tools:layout="@layout/fragment_transfer_tab_help_popup"/>
+</navigation>

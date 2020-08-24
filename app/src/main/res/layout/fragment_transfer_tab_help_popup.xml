@@ -1,0 +1,390 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/transfer_tab_help_popup_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transfer_tab_help_popup_activity_transfer_tab_help_popup_constraint_layout_background_color">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ui_constraint_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1.01"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/bottom_bar_copy_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/transfer_tab_help_popup_activity_bottom_bar_copy_constraint_layout_height"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/send_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/transfer_tab_help_popup_activity_send_constraint_layout_height"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/line_constraint_layout"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/bg_image_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_weight="0.99"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/send_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font_applesystemuifont"
+                    android:gravity="center"
+                    android:letterSpacing="0.02"
+                    android:text="@string/transfer_tab_help_popup_activity_send_text_view_text"
+                    android:textColor="@color/transfer_tab_help_popup_activity_send_text_view_text_color"
+                    android:textSize="@dimen/transfer_tab_help_popup_activity_send_text_view_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="71dp"
+                    tools:layout_editor_absoluteY="20dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/request_constraint_layout"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/transfer_tab_help_popup_activity_request_constraint_layout_height"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/line_constraint_layout"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/bg_two_image_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_weight="1"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/request_text_view"
+                    android:layout_width="@dimen/transfer_tab_help_popup_activity_request_text_view_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/transfer_tab_help_popup_activity_request_text_view_margin_top"
+                    android:fontFamily="@font/font_applesystemuifont"
+                    android:gravity="center"
+                    android:letterSpacing="0.02"
+                    android:text="@string/transfer_tab_help_popup_activity_request_text_view_text"
+                    android:textColor="@color/transfer_tab_help_popup_activity_request_text_view_text_color"
+                    android:textSize="@dimen/transfer_tab_help_popup_activity_request_text_view_text_size"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="57dp"
+                    tools:layout_editor_absoluteY="20dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/line_constraint_layout"
+                android:layout_width="@dimen/transfer_tab_help_popup_activity_line_constraint_layout_width"
+                android:layout_height="@dimen/transfer_tab_help_popup_activity_line_constraint_layout_height"
+                android:background="@color/transfer_tab_help_popup_activity_line_constraint_layout_background_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="179dp"
+                tools:layout_editor_absoluteY="0dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/copy_constraint_layout"
+            android:layout_width="@dimen/transfer_tab_help_popup_activity_copy_constraint_layout_width"
+            android:layout_height="@dimen/transfer_tab_help_popup_activity_copy_constraint_layout_height"
+            android:layout_marginTop="@dimen/transfer_tab_help_popup_activity_copy_constraint_layout_margin_top"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tabs_copy_constraint_layout">
+
+            <TextView
+                android:id="@+id/text_view_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_applesystemuifont"
+                android:gravity="start"
+                android:lineSpacingMultiplier="0.85"
+                android:text="@string/transfer_tab_help_popup_activity_text_view_text_view_text"
+                android:textColor="@color/transfer_tab_help_popup_activity_text_view_text_view_text_color"
+                android:textSize="@dimen/transfer_tab_help_popup_activity_text_view_text_view_text_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/text_view_two_text_view"
+                android:layout_width="@dimen/transfer_tab_help_popup_activity_text_view_two_text_view_width"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/transfer_tab_help_popup_activity_text_view_two_text_view_margin_end"
+                android:layout_marginBottom="@dimen/transfer_tab_help_popup_activity_text_view_two_text_view_margin_bottom"
+                android:fontFamily="@font/font_applesystemuifont"
+                android:gravity="start"
+                android:lineSpacingMultiplier="0.85"
+                android:text="@string/transfer_tab_help_popup_activity_text_view_two_text_view_text"
+                android:textColor="@color/transfer_tab_help_popup_activity_text_view_two_text_view_text_color"
+                android:textSize="@dimen/transfer_tab_help_popup_activity_text_view_two_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/text_view_three_text_view"
+                tools:layout_editor_absoluteX="71dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/text_view_three_text_view"
+                android:layout_width="@dimen/transfer_tab_help_popup_activity_text_view_three_text_view_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/transfer_tab_help_popup_activity_text_view_three_text_view_margin_top"
+                android:fontFamily="@font/font_applesystemuifont"
+                android:gravity="start"
+                android:lineSpacingMultiplier="0.83"
+                android:text="@string/transfer_tab_help_popup_activity_text_view_three_text_view_text"
+                android:textColor="@color/transfer_tab_help_popup_activity_text_view_three_text_view_text_color"
+                android:textSize="@dimen/transfer_tab_help_popup_activity_text_view_three_text_view_text_size"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="175dp"
+                tools:layout_editor_absoluteY="11dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/tabs_copy_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/transfer_tab_help_popup_activity_tabs_copy_constraint_layout_height"
+            android:layout_marginStart="@dimen/transfer_tab_help_popup_activity_tabs_copy_constraint_layout_margin_start"
+            android:layout_marginEnd="@dimen/transfer_tab_help_popup_activity_tabs_copy_constraint_layout_margin_end"
+            android:background="@color/transfer_tab_help_popup_activity_tabs_copy_constraint_layout_background_color"
+            app:layout_constraintHorizontal_weight="0.99"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_bar_copy_constraint_layout"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="80dp">
+
+            <ImageView
+                android:id="@+id/tabs_image_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tabs_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/app_bar_copy_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/transfer_tab_help_popup_activity_app_bar_copy_constraint_layout_height"
+            android:background="@color/transfer_tab_help_popup_activity_app_bar_copy_constraint_layout_background_color"
+            android:visibility="gone"
+            app:layout_constraintHorizontal_weight="0.99"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ic_help_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/transfer_tab_help_popup_activity_ic_help_image_view_margin_top"
+                android:layout_marginEnd="@dimen/transfer_tab_help_popup_activity_ic_help_image_view_margin_end"
+                android:scaleType="center"
+                android:src="@drawable/ic_help"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="320dp"
+                tools:layout_editor_absoluteY="40dp" />
+
+            <TextView
+                android:id="@+id/transfer_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/transfer_tab_help_popup_activity_transfer_text_view_margin_top"
+                android:gravity="center"
+                android:text="@string/transfer_tab_help_popup_activity_transfer_text_view_text"
+                android:textColor="@color/transfer_tab_help_popup_activity_transfer_text_view_text_color"
+                android:textSize="@dimen/transfer_tab_help_popup_activity_transfer_text_view_text_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="40dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/navbar_copy_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/navbar"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_weight="0.99"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/scrim_constraint_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/transfer_tab_help_popup_activity_scrim_constraint_layout_background_color"
+        app:layout_constraintBottom_toBottomOf="@+id/ui_constraint_layout"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/popup_constraint_layout"
+        android:layout_width="@dimen/transfer_tab_help_popup_activity_popup_constraint_layout_width"
+        android:layout_height="@dimen/transfer_tab_help_popup_activity_popup_constraint_layout_height"
+        android:layout_marginTop="@dimen/transfer_tab_help_popup_activity_popup_constraint_layout_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="109dp">
+
+        <ImageView
+            android:id="@+id/card_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/card"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+        <TextView
+            android:id="@+id/yup_that_simple_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/transfer_tab_help_popup_activity_yup_that_simple_text_view_margin_bottom"
+            android:gravity="center"
+            android:text="@string/transfer_tab_help_popup_activity_yup_that_simple_text_view_text"
+            android:textColor="@color/transfer_tab_help_popup_activity_yup_that_simple_text_view_text_color"
+            android:textSize="@dimen/transfer_tab_help_popup_activity_yup_that_simple_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="288dp"/>
+
+        <TextView
+            android:id="@+id/how_it_works_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/transfer_tab_help_popup_activity_how_it_works_text_view_margin_top"
+            android:gravity="center"
+            android:text="@string/transfer_tab_help_popup_activity_how_it_works_text_view_text"
+            android:textColor="@color/transfer_tab_help_popup_activity_how_it_works_text_view_text_color"
+            android:textSize="@dimen/transfer_tab_help_popup_activity_how_it_works_text_view_text_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="12dp"/>
+
+        <TextView
+            android:id="@+id/select_amount_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/transfer_tab_help_popup_activity_select_amount_text_view_margin_end"
+            android:layout_marginTop="@dimen/transfer_tab_help_popup_activity_select_amount_text_view_margin_top"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="1.05"
+            android:text="@string/transfer_tab_help_popup_activity_select_amount_text_view_text"
+            android:textColor="@color/transfer_tab_help_popup_activity_select_amount_text_view_text_color"
+            android:textSize="@dimen/transfer_tab_help_popup_activity_select_amount_text_view_text_size"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/how_it_works_text_view"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="84dp"/>
+
+        <TextView
+            android:id="@+id/select_who_text_view"
+            android:layout_width="@dimen/transfer_tab_help_popup_activity_select_who_text_view_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/transfer_tab_help_popup_activity_select_who_text_view_margin_end"
+            android:layout_marginTop="@dimen/transfer_tab_help_popup_activity_select_who_text_view_margin_top"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="1.05"
+            android:text="@string/transfer_tab_help_popup_activity_select_who_text_view_text"
+            android:textColor="@color/transfer_tab_help_popup_activity_select_who_text_view_text_color"
+            android:textSize="@dimen/transfer_tab_help_popup_activity_select_who_text_view_text_size"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/select_amount_text_view"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="157dp"/>
+
+        <TextView
+            android:id="@+id/tap_confirm_text_view"
+            android:layout_width="@dimen/transfer_tab_help_popup_activity_tap_confirm_text_view_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/transfer_tab_help_popup_activity_tap_confirm_text_view_margin_end"
+            android:layout_marginTop="@dimen/transfer_tab_help_popup_activity_tap_confirm_text_view_margin_top"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="1.05"
+            android:text="@string/transfer_tab_help_popup_activity_tap_confirm_text_view_text"
+            android:textColor="@color/transfer_tab_help_popup_activity_tap_confirm_text_view_text_color"
+            android:textSize="@dimen/transfer_tab_help_popup_activity_tap_confirm_text_view_text_size"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/select_who_text_view"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="228dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/navbar_image_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/transfer_tab_help_popup_activity_navbar_image_view_margin_bottom"
+        android:scaleType="centerCrop"
+        android:src="@drawable/navbar"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

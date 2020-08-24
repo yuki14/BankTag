@@ -1,0 +1,342 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/transaction_confirm_single_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transaction_confirm_single_activity_transaction_confirm_single_constraint_layout_background_color">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottom_bar_constraint_layout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/transaction_confirm_single_activity_bottom_bar_constraint_layout_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/bg_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/confirm_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="center"
+            android:letterSpacing="0.02"
+            android:text="@string/transaction_confirm_single_activity_confirm_text_view_text"
+            android:textColor="@color/transaction_confirm_single_activity_confirm_text_view_text_color"
+            android:textSize="@dimen/transaction_confirm_single_activity_confirm_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="20dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/app_bar_constraint_layout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/transaction_confirm_single_activity_app_bar_constraint_layout_height"
+        android:background="@color/transaction_confirm_single_activity_app_bar_constraint_layout_background_color"
+        android:visibility="gone"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/close_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/transaction_confirm_single_activity_close_image_view_margin_start"
+            android:layout_marginTop="@dimen/transaction_confirm_single_activity_close_image_view_margin_top"
+            android:scaleType="center"
+            android:src="@drawable/close"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <TextView
+            android:id="@+id/send_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/transaction_confirm_single_activity_send_text_view_margin_top"
+            android:gravity="center"
+            android:text="@string/transaction_confirm_single_activity_send_text_view_text"
+            android:textColor="@color/transaction_confirm_single_activity_send_text_view_text_color"
+            android:textSize="@dimen/transaction_confirm_single_activity_send_text_view_text_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="40dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/navbar_image_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/transaction_confirm_single_activity_navbar_image_view_margin_bottom"
+        android:scaleType="centerCrop"
+        android:src="@drawable/navbar"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/transaction_constraint_layout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/transaction_confirm_single_activity_transaction_constraint_layout_height"
+        android:layout_marginTop="@dimen/transaction_confirm_single_activity_transaction_constraint_layout_margin_top"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar_constraint_layout"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="88dp">
+
+        <View
+            android:id="@+id/rectangle290_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/transaction_confirm_single_activity_rectangle290_constraint_layout_height"
+            android:background="@color/transaction_confirm_single_activity_rectangle290_constraint_layout_background_color"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_constraint_layout"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="48dp"/>
+
+        <ImageView
+            android:id="@+id/arrow_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/transaction_confirm_single_activity_arrow_image_view_margin_top"
+            android:scaleType="center"
+            android:src="@drawable/arrow"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_constraint_layout"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="116dp"/>
+
+        <ImageView
+            android:id="@+id/mask_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/transaction_confirm_single_activity_mask_image_view_margin_end"
+            android:layout_marginTop="@dimen/transaction_confirm_single_activity_mask_image_view_margin_top"
+            android:scaleType="center"
+            android:src="@drawable/mask_10"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_constraint_layout"
+            tools:layout_editor_absoluteX="228dp"
+            tools:layout_editor_absoluteY="64dp"/>
+
+        <ImageView
+            android:id="@+id/mask_copy3_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/transaction_confirm_single_activity_mask_copy3_image_view_margin_start"
+            android:layout_marginTop="@dimen/transaction_confirm_single_activity_mask_copy3_image_view_margin_top"
+            android:scaleType="center"
+            android:src="@drawable/mask_copy_3_2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_constraint_layout"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="64dp"/>
+
+        <TextView
+            android:id="@+id/amar_sagoo_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/transaction_confirm_single_activity_amar_sagoo_text_view_margin_bottom"
+            android:layout_marginEnd="@dimen/transaction_confirm_single_activity_amar_sagoo_text_view_margin_end"
+            android:gravity="center"
+            android:text="@string/transaction_confirm_single_activity_amar_sagoo_text_view_text"
+            android:textColor="@color/transaction_confirm_single_activity_amar_sagoo_text_view_text_color"
+            android:textSize="@dimen/transaction_confirm_single_activity_amar_sagoo_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteX="233dp"
+            tools:layout_editor_absoluteY="172dp"/>
+
+        <TextView
+            android:id="@+id/you_copy_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/transaction_confirm_single_activity_you_copy_text_view_margin_bottom"
+            android:layout_marginStart="@dimen/transaction_confirm_single_activity_you_copy_text_view_margin_start"
+            android:gravity="center"
+            android:text="@string/transaction_confirm_single_activity_you_copy_text_view_text"
+            android:textColor="@color/transaction_confirm_single_activity_you_copy_text_view_text_color"
+            android:textSize="@dimen/transaction_confirm_single_activity_you_copy_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="172dp"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/header_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/transaction_confirm_single_activity_header_constraint_layout_height"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/send_two_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/transaction_confirm_single_activity_send_two_text_view_margin_start"
+                android:gravity="start"
+                android:text="@string/transaction_confirm_single_activity_send_two_text_view_text"
+                android:textColor="@color/transaction_confirm_single_activity_send_two_text_view_text_color"
+                android:textSize="@dimen/transaction_confirm_single_activity_send_two_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="14dp"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/transaction_copy_constraint_layout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/transaction_confirm_single_activity_transaction_copy_constraint_layout_height"
+        android:layout_marginTop="@dimen/transaction_confirm_single_activity_transaction_copy_constraint_layout_margin_top"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transaction_constraint_layout"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="303dp">
+
+        <View
+            android:id="@+id/rectangle290_two_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/transaction_confirm_single_activity_rectangle290_two_constraint_layout_background_color"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_two_constraint_layout" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_layout_constraint_layout"
+            android:layout_width="@dimen/transaction_confirm_single_activity_constraint_layout_constraint_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/transaction_confirm_single_activity_constraint_layout_constraint_layout_margin_top"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_two_constraint_layout">
+
+            <TextView
+                android:id="@+id/text_view_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_applesystemuifont"
+                android:gravity="start"
+                android:lineSpacingMultiplier="0.85"
+                android:text="@string/transaction_confirm_single_activity_text_view_text_view_text"
+                android:textColor="@color/transaction_confirm_single_activity_text_view_text_view_text_color"
+                android:textSize="@dimen/transaction_confirm_single_activity_text_view_text_view_text_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/text_view_two_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/transaction_confirm_single_activity_text_view_two_text_view_margin_bottom"
+                android:fontFamily="@font/font_applesystemuifont"
+                android:gravity="start"
+                android:lineSpacingMultiplier="0.85"
+                android:text="@string/transaction_confirm_single_activity_text_view_two_text_view_text"
+                android:textColor="@color/transaction_confirm_single_activity_text_view_two_text_view_text_color"
+                android:textSize="@dimen/transaction_confirm_single_activity_text_view_two_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/text_view_three_text_view" />
+
+            <TextView
+                android:id="@+id/text_view_three_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/transaction_confirm_single_activity_text_view_three_text_view_margin_top"
+                android:fontFamily="@font/font_applesystemuifont"
+                android:gravity="start"
+                android:lineSpacingMultiplier="0.83"
+                android:text="@string/transaction_confirm_single_activity_text_view_three_text_view_text"
+                android:textColor="@color/transaction_confirm_single_activity_text_view_three_text_view_text_color"
+                android:textSize="@dimen/transaction_confirm_single_activity_text_view_three_text_view_text_size"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/reason_dinner_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/transaction_confirm_single_activity_reason_dinner_text_view_margin_bottom"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="center"
+            android:lineSpacingMultiplier="0.82"
+            android:text="@string/transaction_confirm_single_activity_reason_dinner_text_view_text"
+            android:textColor="@color/transaction_confirm_single_activity_reason_dinner_text_view_text_color"
+            android:textSize="@dimen/transaction_confirm_single_activity_reason_dinner_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="169dp"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/header_two_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/transaction_confirm_single_activity_header_two_constraint_layout_height"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/amount_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/transaction_confirm_single_activity_amount_text_view_margin_start"
+                android:gravity="start"
+                android:text="@string/transaction_confirm_single_activity_amount_text_view_text"
+                android:textColor="@color/transaction_confirm_single_activity_amount_text_view_text_color"
+                android:textSize="@dimen/transaction_confirm_single_activity_amount_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="14dp"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

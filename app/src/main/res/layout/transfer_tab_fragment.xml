@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/transfer_tab_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transfer_tab_activity_transfer_tab_constraint_layout_background_color">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottom_bar_fullwidth_constraint_layout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/transfer_tab_activity_bottom_bar_fullwidth_constraint_layout_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/send_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/transfer_tab_activity_send_constraint_layout_height"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/line_constraint_layout"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/bg_image_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/send_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_applesystemuifont"
+                android:gravity="center"
+                android:letterSpacing="0.02"
+                android:text="@string/transfer_tab_activity_send_text_view_text"
+                android:textColor="@color/transfer_tab_activity_send_text_view_text_color"
+                android:textSize="@dimen/transfer_tab_activity_send_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="71dp"
+                tools:layout_editor_absoluteY="20dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/request_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/send_constraint_layout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/bg_two_image_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/request_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_applesystemuifont"
+                android:gravity="center"
+                android:letterSpacing="0.02"
+                android:text="@string/transfer_tab_activity_request_text_view_text"
+                android:textColor="@color/transfer_tab_activity_request_text_view_text_color"
+                android:textSize="@dimen/transfer_tab_activity_request_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/line_constraint_layout"
+            android:layout_width="@dimen/transfer_tab_activity_line_constraint_layout_width"
+            android:layout_height="@dimen/transfer_tab_activity_line_constraint_layout_height"
+            android:background="@color/transfer_tab_activity_line_constraint_layout_background_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout_constraint_layout"
+        android:layout_width="@dimen/transfer_tab_activity_constraint_layout_constraint_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/transfer_tab_activity_constraint_layout_constraint_layout_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabs_constraint_layout">
+
+        <TextView
+            android:id="@+id/text_view_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.85"
+            android:text="@string/transfer_tab_activity_text_view_text_view_text"
+            android:textColor="@color/transfer_tab_activity_text_view_text_view_text_color"
+            android:textSize="@dimen/transfer_tab_activity_text_view_text_view_text_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/text_view_two_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.85"
+            android:text="@string/transfer_tab_activity_text_view_two_text_view_text"
+            android:textColor="@color/transfer_tab_activity_text_view_two_text_view_text_color"
+            android:textSize="@dimen/transfer_tab_activity_text_view_two_text_view_text_size"
+            app:layout_constraintRight_toLeftOf="@+id/text_view_three_text_view"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_view_three_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/transfer_tab_activity_text_view_three_text_view_margin_top"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.83"
+            android:text="@string/transfer_tab_activity_text_view_three_text_view_text"
+            android:textColor="@color/transfer_tab_activity_text_view_three_text_view_text_color"
+            android:textSize="@dimen/transfer_tab_activity_text_view_three_text_view_text_size"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/tabs_constraint_layout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/transfer_tab_activity_tabs_constraint_layout_height"
+        android:background="@color/transfer_tab_activity_tabs_constraint_layout_background_color"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView11"
+            app:layout_constraintHorizontal_bias="0.33"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_send_24" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.67"
+            app:layout_constraintStart_toEndOf="@+id/imageView11"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_access_time_24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/navbar_image_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/transfer_tab_activity_navbar_image_view_margin_bottom"
+        android:scaleType="centerCrop"
+        android:src="@drawable/navbar"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_bar_fullwidth_constraint_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraint_layout_constraint_layout">
+
+        <TextView
+            android:id="@+id/text_view_one_text_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.83"
+            android:text="1"
+            android:textColor="@color/transfer_tab_activity_text_view_three_text_view_text_color"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_one_text_view"
+            app:layout_constraintEnd_toStartOf="@+id/text_view_one_text_view3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_view_one_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.83"
+            android:text="4"
+            android:textColor="@color/transfer_tab_activity_text_view_three_text_view_text_color"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_one_text_view5"
+            app:layout_constraintEnd_toStartOf="@+id/text_view_one_text_view3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_one_text_view2" />
+
+        <TextView
+            android:id="@+id/text_view_one_text_view5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.83"
+            android:text="7"
+            android:textColor="@color/transfer_tab_activity_text_view_three_text_view_text_color"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_one_text_view6"
+            app:layout_constraintEnd_toStartOf="@+id/text_view_one_text_view3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_one_text_view" />
+
+        <TextView
+            android:id="@+id/text_view_one_text_view6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.83"
+            android:text="."
+            android:textColor="@color/transfer_tab_activity_text_view_three_text_view_text_color"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/text_view_one_text_view3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_one_text_view5" />
+
+        <TextView
+            android:id="@+id/text_view_one_text_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.83"
+            android:text="2"
+            android:textColor="@color/transfer_tab_activity_text_view_three_text_view_text_color"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_one_text_view10"
+            app:layout_constraintEnd_toStartOf="@+id/text_view_one_text_view4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/text_view_one_text_view2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_view_one_text_view10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.83"
+            android:text="5"
+            android:textColor="@color/transfer_tab_activity_text_view_three_text_view_text_color"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_one_text_view11"
+            app:layout_constraintEnd_toStartOf="@+id/text_view_one_text_view4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/text_view_one_text_view2"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_one_text_view3" />
+
+        <TextView
+            android:id="@+id/text_view_one_text_view11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.83"
+            android:text="8"
+            android:textColor="@color/transfer_tab_activity_text_view_three_text_view_text_color"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_one_text_view12"
+            app:layout_constraintEnd_toStartOf="@+id/text_view_one_text_view4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/text_view_one_text_view2"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_one_text_view10" />
+
+        <TextView
+            android:id="@+id/text_view_one_text_view12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.83"
+            android:text="0"
+            android:textColor="@color/transfer_tab_activity_text_view_three_text_view_text_color"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/text_view_one_text_view4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/text_view_one_text_view2"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_one_text_view11" />
+
+        <TextView
+            android:id="@+id/text_view_one_text_view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.83"
+            android:text="3"
+            android:textColor="@color/transfer_tab_activity_text_view_three_text_view_text_color"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_one_text_view13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/text_view_one_text_view3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_view_one_text_view13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.83"
+            android:text="6"
+            android:textColor="@color/transfer_tab_activity_text_view_three_text_view_text_color"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_one_text_view14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/text_view_one_text_view3"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_one_text_view4" />
+
+        <TextView
+            android:id="@+id/text_view_one_text_view14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:lineSpacingMultiplier="0.83"
+            android:text="9"
+            android:textColor="@color/transfer_tab_activity_text_view_three_text_view_text_color"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_one_text_view15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/text_view_one_text_view3"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_one_text_view13" />
+
+        <ImageView
+            android:id="@+id/text_view_one_text_view15"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/text_view_one_text_view3"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_one_text_view14"
+            app:srcCompat="@drawable/ic_baseline_backspace_24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
